@@ -3,6 +3,7 @@ Reveal.initialize
   progress: true
   history: true
   rollingLinks: false
+  slideNumber: true
 
   theme: Reveal.getQueryHash().theme || 'default'
   transition: Reveal.getQueryHash().transition || 'default'
@@ -10,8 +11,3 @@ Reveal.initialize
   dependencies: [
     { src: 'javascripts/classList.js', condition: ->  !document.body.classList }
   ]
-
-Reveal.addEventListener 'slidechanged', ( event )->
-  # custom code here, that triggers on slide show
-$ ->
-  prettyPrint()

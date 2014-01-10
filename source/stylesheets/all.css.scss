@@ -1,6 +1,5 @@
-@import "reveal";
-@import "default";
-
+@import "reveal.min";
+@import "themes/default";
 
 .reveal {
   font-size: 180%;
@@ -25,4 +24,31 @@
 .name {
   @extend h1;
   font-size: 3em;
+}
+
+#btn-right, #btn-left {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  cursor: pointer;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+}
+#btn-right {
+  border-width: 100px 0 100px 173.2px;
+  border-color: transparent transparent transparent #007bff;
+}
+#btn-left {
+  border-width: 100px 173.2px 100px 0;
+  border-color: transparent #007bff transparent transparent;
+}
+
+.controllers {
+  text-align: center;
+  background: grey;
+  height: 100%;
+  width: 100%;
 }

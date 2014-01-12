@@ -7,7 +7,7 @@
 
 .inline-images {
   .image {
-    width: 20%;
+    width: 30%;
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -15,6 +15,10 @@
     zoom: 1;
     *display: inline;
   }
+}
+
+.big-image{
+  width: 85%;
 }
 
 .logo {

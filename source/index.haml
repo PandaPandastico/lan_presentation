@@ -1,5 +1,5 @@
 %section
-  %h1 Evento lan party 2014
+  %h1 Evento lan party G.C. 2014
 %section.fragments
   %p.name Inexus
   = image_tag "inexus.svg", class: "logo"
@@ -20,48 +20,68 @@
       %li
         %b Las Palmas LAN 2012
         (400 participantes)
+    .inline-images
+      = image_tag "lan.ant.people.jpg", class: "image"
+      = image_tag "lan.ant.montaje.jpg", class: "image"
+      = image_tag "lan.ant.pc.jpg", class: "image"
+
+  %section
+    = image_tag "lan.ant.people.jpg"
+  %section
+    = image_tag "lan.ant.montaje.jpg"
+  %section
+    = image_tag "lan.ant.pc.jpg"
   %section
     %h2 Otros eventos
-    %ul
-      %li
-        Binter Canarias (de 2008 a 2010): Montaje de equipos de simulación para el evento
-      %li
-        “Turismo en Canarias”
-      %li
-        IVAO (2008): Montaje de equipos de simulación aeronáutica y torres de control virtuales.
-      %li
-        %b Planeta GC y Feria de actividades extraescolares (2005, 2006, 2012, 2013):
-        Montaje de red y mantenimiento de PCs y consolas.
-      %li
-        Asesoramiento informático en el I Concurso de Creación de Videojuegos de Fundación IDEO (2004)
-      %li
-        Jornadas de ajedrez online, Campeonato Europeo (2005 y 2006): infraestructura, montaje y soporte.
-      %li
-        Montaje informático y contenidos para Asepeyo en diferentes eventos, gabinetes de prensa, etc.
-      %li
-        Planeta GC Tecnova (2012) Pabellon de videoconsolas, ordenadores y multimedia.
+  %section
+    %p Binter Canarias(2008-2010): Equipos de simulación
+  %section
+    %p “Turismo en Canarias”
+  %section
+    %p IVAO (2008): Equipos de simulación aeronáutica y torres de control virtuales.
+  %section
+    %p Asesoramiento informático en el I Concurso de Creación de Videojuegos de Fundación IDEO (2004)
+  %section
+    %p Jornadas de ajedrez online, Campeonato Europeo(2005-2006): infraestructura, montaje y soporte.
+  %section
+    %p Montaje informático y contenidos para Asepeyo en diferentes eventos, gabinetes de prensa, etc.
+    = image_tag "asepeyo.jpg"
+  %section
+    %p Animayo(2013): Montaje y mantenimiento de red, PCs y consolas
+    .inline-images
+      = image_tag "animayo.jpg", class: "image"
+  %section
+    %p Planeta GC y Feria de actividades(2005, 2006, 2012, 2013): Montaje y mantenimiento de red, PCs y consolas
+    .inline-images
+      = image_tag "pgc12.jpg", class: "image"
+      = image_tag "pgc13.jpg", class: "image"
 
-%section.fragments(data-transition="cube")
+%section
   %h2 Ultima Lan realizada
-  %ul
-    %li.fragment
-      400 participantes
-    %li.fragment
-      Eventos paralelos:
-      %ul
-        %li.fragment
-          Comic Can
-        %li.fragment
-          Airsoft
-        %li.fragment
-          Charlas emprendiduría digital
-    %li.fragment
-      Premios valorados en mas de 5000€
-      .inline-images.fragment
-        = image_tag "fondo2lan.jpg", class: "image"
-        = image_tag "lantecno.jpg", class: "image"
-        = image_tag "tintin.jpg", class: "image"
-        = image_tag "consolas.jpg", class: "image"
+%section
+  %p 400 participantes
+  = image_tag "fondo2lan.jpg", class: "big-image"
+
+%section(data-transition="concave")
+  %h3 Eventos paralelos
+%section(data-transition="concave")
+  %p Comic Can
+  = image_tag "lan.comic.jpg", class: "big-image"
+%section
+  %p Recreacion Historica
+  = image_tag "lan.recreacion.jpg", class: "big-image"
+%section
+  %p Charlas emprendiduría digital y ocio
+  = image_tag "charlas.jpg", class: "big-image"
+
+%section
+  %p Premios valorados en mas de 5000€
+  = image_tag "premios.jpg", class: "big-image"
+
+%section
+  .inline-images
+    = image_tag "lantecno.jpg", class: "image"
+    = image_tag "consolas.jpg", class: "image"
 
 %section
   %p.name Próxima lan party
@@ -81,7 +101,6 @@
 %section
   %h2 ¿Quién nos apoya?
   .inline-images
-    = image_tag "cabildo.png", class: "image"
     = image_tag "ulpgc.jpg", class: "image"
     = image_tag "eii.png", class: "image"
     = image_tag "qi.svg", class: "image"

@@ -3,6 +3,9 @@
 
 .reveal {
   font-size: 180%;
+  section img {
+    background: white;
+  }
 }
 
 .inline-images {
@@ -10,7 +13,7 @@
     width: 31%;
     display: -moz-inline-stack;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     margin: 5px;
     zoom: 1;
     *display: inline;

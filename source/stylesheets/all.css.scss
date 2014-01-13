@@ -6,8 +6,17 @@
 }
 
 .inline-images {
+  .miniature {
+    width: 31%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    zoom: 1;
+    *display: inline;
+  }
   .image {
-    width: 30%;
+    width: 47%;
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -21,12 +30,20 @@
   width: 85%;
 }
 
-.logo {
+.inexus-logo {
   width: 30%;
 }
 
-.name {
+.inexus-name {
   @extend h1;
+  font-size: 3em;
+}
+.phrase {
+  @extend h3;
+  font-size: 3em;
+}
+.phrase2 {
+  @extend h4;
   font-size: 3em;
 }
 

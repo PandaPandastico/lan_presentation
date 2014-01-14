@@ -9,7 +9,7 @@
 }
 
 .inline-images {
-  .miniature {
+  .miniatures {
     width: 31%;
     display: -moz-inline-stack;
     display: inline-block;
@@ -18,7 +18,7 @@
     zoom: 1;
     *display: inline;
   }
-  .image {
+  .medium-images {
     width: 47%;
     display: -moz-inline-stack;
     display: inline-block;
@@ -29,7 +29,7 @@
   }
 }
 
-.big-image{
+.big-images {
   width: 85%;
 }
 
@@ -41,11 +41,11 @@
   @extend h1;
   font-size: 3em;
 }
-.phrase {
+.medium-phrase {
   @extend h3;
   font-size: 3em;
 }
-.phrase2 {
+.small-phrase {
   @extend h4;
   font-size: 3em;
 }
